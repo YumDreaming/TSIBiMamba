@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="root@connect.nmb1.seetacloud.com:16052 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:16052 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:17833 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:19045 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:23292 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:26923 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:30928 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:32132 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:33206 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:33206 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:37524 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:39334 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:43933 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:46553 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:48000 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.nmb1.seetacloud.com:49913 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westc.gpuhub.com:44339 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@connect.westc.gpuhub.com:44339 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/deap/bimambavision" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

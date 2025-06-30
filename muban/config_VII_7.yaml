@@ -1,0 +1,43 @@
+data_dir: "/root/autodl-tmp/SEED_VII_3D"
+save_dir: "/root/autodl-tmp/model"
+
+train: true
+epochs: 100
+batch_size: 128
+learning_rate: 8e-5
+# plateau
+lr_scheduler: "cos"
+#lr_scheduler: "plateau"
+if_wandb: false
+
+device:
+  - "cuda"
+
+model: "DeapMamba"
+dataset: "SEED-VII"
+mmmamba:
+  mm_input_size: 512
+  mm_output_sizes:
+    - 512
+    - 768
+    - 1024
+#    - 768
+    - 512
+  dropout: 0.1
+  activation: "Tanh"
+  causal: false
+  mamba_config:
+    d_state: 12
+    expand: 2
+    d_conv: 4
+    bidirectional: true
+
+num_classes: 7
+
+input:
+  T: 6
+  C: 5
+  H: 8
+  W: 9
+
+seed: 42

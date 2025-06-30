@@ -1,0 +1,48 @@
+# 数据相关
+data_dir: "/root/autodl-tmp/deap_map/3d/"
+save_dir: "/root/autodl-tmp/model"
+
+# 训练开关 & 超参数
+train: true
+epochs: 100
+batch_size: 128
+learning_rate: 8e-5
+lr_scheduler: "cos"    # 可选 "cos" 或 "none"
+if_wandb: false
+
+# 设备
+device:
+  - "cuda"
+
+# 模型 & 模块配置
+model: "DeapMamba"     # 标记用
+dataset: "DEAP"
+mmmamba:
+  mm_input_size: 512
+  mm_output_sizes:
+    - 512
+#    - 768
+    - 1024
+#    - 512
+
+  dropout: 0.1
+  activation: "Tanh"
+  causal: false
+  mamba_config:
+    d_state: 16
+    expand: 4
+    d_conv: 4
+    bidirectional: true
+
+# 类别数
+num_classes: 2
+
+# 输入尺寸
+input:
+  T: 6
+  C: 4
+  H: 8
+  W: 9
+
+# 随机种子
+seed: 42

@@ -1,0 +1,32 @@
+data_dir: "/root/autodl-tmp/deap_signal"
+
+model: DeapMamba
+dataset: DEAP
+train: true
+epochs: 120
+batch_size: 20
+learning_rate: 8e-5
+lr_scheduler: cos
+if_wandb: false
+save_dir: "/root/deap/model"
+device:
+  - "cuda"
+
+
+mmmamba:
+  eeg_input_size: 32
+  gsr_input_size: 1
+  mm_input_size: 32
+  mm_output_sizes: [48, 64, 128]
+  dropout: 0.2
+  d_ffn: 1024
+  num_layers: 1
+  activation: 'Tanh'
+  causal: false
+
+  mamba_config:
+    d_state: 12
+    expand: 2
+    d_conv: 4
+    bidirectional: true
+
